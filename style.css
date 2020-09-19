@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(255, 0, 255);
+}
+
+
 #menu {
 background-color: #001f51;
 font-size: 1.1em;
@@ -9,3 +14,49 @@ position: inherit;
 margin: 0px;
 border: 0px #001f51 solid;
 text-transform: none; }
+
+#menu table {
+width: 959px;
+height: 34px;
+margin: 0px;
+padding: 0px;
+}
+
+#menu table td{
+border: 0px;
+margin: 0px;
+padding: 0px;
+width: 20%; }
+
+#menu table td a {
+display: block;
+margin: 0px;
+padding: 5px;
+text-decoration: none;
+color: #ffffff;
+letter-spacing: 0em;
+word-spacing: 0em;
+text-indent: 0em;
+vertical-align: 0em;
+text-align: center; }
+
+#menu table td a:link, #menu table td a:visited {
+background-color: #001f51;
+}
+
+#menu table td a:hover, #menu table td a:active {
+background-color: #227f96;
+}
+
+#menu table td a.current {
+background-color: #0f86c1;
+}
+
+#menu table td.join a:link, #menu table td.join a:visited {
+background-color: #060ddd;
+color: #ffffff;
+}
+
+#menu table td.join a:hover, #menu table td.join a:active, #menu table td.join a.current {
+background-color: #001f51;
+color: #ffffff;}
